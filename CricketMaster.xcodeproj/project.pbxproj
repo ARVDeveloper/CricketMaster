@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BEF121B093375C41CEC7DB2 /* Pods_CricketMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A4A1002F4A93260923B97F /* Pods_CricketMaster.framework */; };
+		7F77ECCA2265E1BE00719F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77ECC92265E1BE00719F3E /* AppDelegate.swift */; };
+		7F77ECCC2265E1BE00719F3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77ECCB2265E1BE00719F3E /* ViewController.swift */; };
+		7F77ECCF2265E1BE00719F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F77ECCD2265E1BE00719F3E /* Main.storyboard */; };
+		7F77ECD12265E23C00719F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F77ECD02265E23C00719F3E /* Assets.xcassets */; };
+		7F77ECD42265E24200719F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F77ECD22265E24200719F3E /* LaunchScreen.storyboard */; };
+		7F77ECDD2265EBF300719F3E /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77ECDC2265EBF300719F3E /* Match.swift */; };
+		7F77ECDF2265EDAF00719F3E /* ic_notifications_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F77ECDE2265EDAF00719F3E /* ic_notifications_black_48dp.png */; };
+		7F77ECE12265F72A00719F3E /* 35320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F77ECE02265F72900719F3E /* 35320.jpg */; };
+		7F77ECE42265FCEE00719F3E /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77ECE32265FCEE00719F3E /* ApiManager.swift */; };
+		7F77ECE72266063D00719F3E /* MatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77ECE62266063D00719F3E /* MatchTableViewCell.swift */; };
+		7F77ECEA22660F7400719F3E /* CurrentMatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77ECE922660F7400719F3E /* CurrentMatchListViewController.swift */; };
+		7F88FCFE226D897F00A664E0 /* CurrentMatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88FCFD226D897F00A664E0 /* CurrentMatchModel.swift */; };
+		7F88FD00226D8AF900A664E0 /* CurrentMatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88FCFF226D8AF900A664E0 /* CurrentMatchTableViewCell.swift */; };
+		7F88FD04226D8EB700A664E0 /* PlayerSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88FD03226D8EB700A664E0 /* PlayerSearchViewController.swift */; };
+		7F88FD06226D901400A664E0 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88FD05226D901400A664E0 /* PlayerModel.swift */; };
+		7F88FD0A226D917300A664E0 /* PlayerListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88FD09226D917300A664E0 /* PlayerListTableViewCell.swift */; };
+		7F88FD0C226D924000A664E0 /* PlayerDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88FD0B226D924000A664E0 /* PlayerDetailsModel.swift */; };
+		7F88FD0E226D932D00A664E0 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88FD0D226D932D00A664E0 /* PlayerDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		255DF8A69C9AC985318910C3 /* Pods-CricketMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CricketMaster.release.xcconfig"; path = "Target Support Files/Pods-CricketMaster/Pods-CricketMaster.release.xcconfig"; sourceTree = "<group>"; };
+		31A4A1002F4A93260923B97F /* Pods_CricketMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CricketMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F77ECC62265E1BD00719F3E /* CricketMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricketMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F77ECC92265E1BE00719F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F77ECCB2265E1BE00719F3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F77ECCE2265E1BE00719F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F77ECD02265E23C00719F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F77ECD32265E24200719F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F77ECD52265E24A00719F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F77ECDC2265EBF300719F3E /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		7F77ECDE2265EDAF00719F3E /* ic_notifications_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_notifications_black_48dp.png; sourceTree = "<group>"; };
+		7F77ECE02265F72900719F3E /* 35320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 35320.jpg; sourceTree = "<group>"; };
+		7F77ECE32265FCEE00719F3E /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		7F77ECE62266063D00719F3E /* MatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTableViewCell.swift; sourceTree = "<group>"; };
+		7F77ECE922660F7400719F3E /* CurrentMatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentMatchListViewController.swift; sourceTree = "<group>"; };
+		7F88FCFD226D897F00A664E0 /* CurrentMatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentMatchModel.swift; sourceTree = "<group>"; };
+		7F88FCFF226D8AF900A664E0 /* CurrentMatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentMatchTableViewCell.swift; sourceTree = "<group>"; };
+		7F88FD03226D8EB700A664E0 /* PlayerSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSearchViewController.swift; sourceTree = "<group>"; };
+		7F88FD05226D901400A664E0 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		7F88FD09226D917300A664E0 /* PlayerListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListTableViewCell.swift; sourceTree = "<group>"; };
+		7F88FD0B226D924000A664E0 /* PlayerDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsModel.swift; sourceTree = "<group>"; };
+		7F88FD0D226D932D00A664E0 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		E02EF3E80D0E38547C53CCCD /* Pods-CricketMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CricketMaster.debug.xcconfig"; path = "Target Support Files/Pods-CricketMaster/Pods-CricketMaster.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F77ECC32265E1BD00719F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEF121B093375C41CEC7DB2 /* Pods_CricketMaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A216FBE46A093F6B06E6B8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31A4A1002F4A93260923B97F /* Pods_CricketMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5084AB1876D298F3FC8951A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E02EF3E80D0E38547C53CCCD /* Pods-CricketMaster.debug.xcconfig */,
+				255DF8A69C9AC985318910C3 /* Pods-CricketMaster.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F77ECBD2265E1BD00719F3E = {
+			isa = PBXGroup;
+			children = (
+				7F77ECC82265E1BD00719F3E /* CricketMaster */,
+				7F77ECC72265E1BD00719F3E /* Products */,
+				5084AB1876D298F3FC8951A9 /* Pods */,
+				4A216FBE46A093F6B06E6B8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F77ECC72265E1BD00719F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F77ECC62265E1BD00719F3E /* CricketMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F77ECC82265E1BD00719F3E /* CricketMaster */ = {
+			isa = PBXGroup;
+			children = (
+				7F77ECE52266062800719F3E /* Cell */,
+				7F77ECE22265FCD000719F3E /* Api Manager */,
+				7F77ECDB2265EBA400719F3E /* Model */,
+				7F77ECE822660F0500719F3E /* VC */,
+				7F77ECC92265E1BE00719F3E /* AppDelegate.swift */,
+				7F77ECCD2265E1BE00719F3E /* Main.storyboard */,
+				7F77ECD02265E23C00719F3E /* Assets.xcassets */,
+				7F77ECD22265E24200719F3E /* LaunchScreen.storyboard */,
+				7F77ECE02265F72900719F3E /* 35320.jpg */,
+				7F77ECDE2265EDAF00719F3E /* ic_notifications_black_48dp.png */,
+				7F77ECD52265E24A00719F3E /* Info.plist */,
+			);
+			path = CricketMaster;
+			sourceTree = "<group>";
+		};
+		7F77ECDB2265EBA400719F3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F77ECDC2265EBF300719F3E /* Match.swift */,
+				7F88FCFD226D897F00A664E0 /* CurrentMatchModel.swift */,
+				7F88FD05226D901400A664E0 /* PlayerModel.swift */,
+				7F88FD0B226D924000A664E0 /* PlayerDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F77ECE22265FCD000719F3E /* Api Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7F77ECE32265FCEE00719F3E /* ApiManager.swift */,
+			);
+			path = "Api Manager";
+			sourceTree = "<group>";
+		};
+		7F77ECE52266062800719F3E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7F77ECE62266063D00719F3E /* MatchTableViewCell.swift */,
+				7F88FCFF226D8AF900A664E0 /* CurrentMatchTableViewCell.swift */,
+				7F88FD09226D917300A664E0 /* PlayerListTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7F77ECE822660F0500719F3E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7F77ECCB2265E1BE00719F3E /* ViewController.swift */,
+				7F77ECE922660F7400719F3E /* CurrentMatchListViewController.swift */,
+				7F88FD03226D8EB700A664E0 /* PlayerSearchViewController.swift */,
+				7F88FD0D226D932D00A664E0 /* PlayerDetailsViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F77ECC52265E1BD00719F3E /* CricketMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F77ECD82265E24A00719F3E /* Build configuration list for PBXNativeTarget "CricketMaster" */;
+			buildPhases = (
+				BB3EB460E9A2796C423C50A8 /* [CP] Check Pods Manifest.lock */,
+				7F77ECC22265E1BD00719F3E /* Sources */,
+				7F77ECC32265E1BD00719F3E /* Frameworks */,
+				7F77ECC42265E1BD00719F3E /* Resources */,
+				04A135A73652D1C082869095 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CricketMaster;
+			productName = CricketMaster;
+			productReference = 7F77ECC62265E1BD00719F3E /* CricketMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F77ECBE2265E1BD00719F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ARV;
+				TargetAttributes = {
+					7F77ECC52265E1BD00719F3E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F77ECC12265E1BD00719F3E /* Build configuration list for PBXProject "CricketMaster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F77ECBD2265E1BD00719F3E;
+			productRefGroup = 7F77ECC72265E1BD00719F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F77ECC52265E1BD00719F3E /* CricketMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F77ECC42265E1BD00719F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F77ECD42265E24200719F3E /* LaunchScreen.storyboard in Resources */,
+				7F77ECD12265E23C00719F3E /* Assets.xcassets in Resources */,
+				7F77ECDF2265EDAF00719F3E /* ic_notifications_black_48dp.png in Resources */,
+				7F77ECCF2265E1BE00719F3E /* Main.storyboard in Resources */,
+				7F77ECE12265F72A00719F3E /* 35320.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A135A73652D1C082869095 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CricketMaster/Pods-CricketMaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CricketMaster/Pods-CricketMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3EB460E9A2796C423C50A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CricketMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F77ECC22265E1BD00719F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F88FD06226D901400A664E0 /* PlayerModel.swift in Sources */,
+				7F77ECE42265FCEE00719F3E /* ApiManager.swift in Sources */,
+				7F88FD0E226D932D00A664E0 /* PlayerDetailsViewController.swift in Sources */,
+				7F88FD0A226D917300A664E0 /* PlayerListTableViewCell.swift in Sources */,
+				7F77ECCC2265E1BE00719F3E /* ViewController.swift in Sources */,
+				7F77ECEA22660F7400719F3E /* CurrentMatchListViewController.swift in Sources */,
+				7F77ECE72266063D00719F3E /* MatchTableViewCell.swift in Sources */,
+				7F77ECCA2265E1BE00719F3E /* AppDelegate.swift in Sources */,
+				7F88FD0C226D924000A664E0 /* PlayerDetailsModel.swift in Sources */,
+				7F88FD00226D8AF900A664E0 /* CurrentMatchTableViewCell.swift in Sources */,
+				7F77ECDD2265EBF300719F3E /* Match.swift in Sources */,
+				7F88FD04226D8EB700A664E0 /* PlayerSearchViewController.swift in Sources */,
+				7F88FCFE226D897F00A664E0 /* CurrentMatchModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F77ECCD2265E1BE00719F3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F77ECCE2265E1BE00719F3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F77ECD22265E24200719F3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F77ECD32265E24200719F3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F77ECD62265E24A00719F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F77ECD72265E24A00719F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F77ECD92265E24A00719F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02EF3E80D0E38547C53CCCD /* Pods-CricketMaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CricketMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARV.CricketMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F77ECDA2265E24A00719F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255DF8A69C9AC985318910C3 /* Pods-CricketMaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CricketMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARV.CricketMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F77ECC12265E1BD00719F3E /* Build configuration list for PBXProject "CricketMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F77ECD62265E24A00719F3E /* Debug */,
+				7F77ECD72265E24A00719F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F77ECD82265E24A00719F3E /* Build configuration list for PBXNativeTarget "CricketMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F77ECD92265E24A00719F3E /* Debug */,
+				7F77ECDA2265E24A00719F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F77ECBE2265E1BD00719F3E /* Project object */;
+}
